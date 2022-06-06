@@ -24,7 +24,6 @@ To unsubscribe from events, you can use the virtual **OnDetaching** method. DevE
 - [MainWindow.xaml](./CS/winui-mvvm-custom-behavior/winui-mvvm-custom-behavior/MainWindow.xaml)
 - [MainWindow.xaml.cs](./CS/winui-mvvm-custom-behavior/winui-mvvm-custom-behavior/MainWindow.xaml.cs)
 - [MainViewModel.cs](./CS/winui-mvvm-custom-behavior/winui-mvvm-custom-behavior/ViewModel.cs)
-- 
 <!-- default file list end --> 
 
 ## Documentation
