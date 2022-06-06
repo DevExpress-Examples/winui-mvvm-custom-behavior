@@ -12,7 +12,7 @@ Each Behavior is a [Behavior&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpr
 
 The [Behavior&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior-1?v=22.1) class contains the [AssociatedObject](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior.AssociatedObject?v=22.1) property. DevExpress MVVM Framework specifies this property when you add a **Behavior** to the [Behaviors](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Interaction.Behaviors?v=22.1) collection. 
 
-After the AssociatedObject is specified, DevExpress MVVM Framework invokes the virtual **OnAttached** method. You can override this method to subscribe to AssociatedObject's events and initialize its properties. 
+After the **AssociatedObject** is specified, DevExpress MVVM Framework invokes the virtual **OnAttached** method. You can override this method to subscribe to **AssociatedObject**'s events and initialize its properties. 
 
 To unsubscribe from events, you can use the virtual **OnDetaching** method. DevExpress MVVM Framework invokes when the Behavior is destroyed.
 
