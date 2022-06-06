@@ -6,37 +6,32 @@
 <!--
 A repository template for creating new examples.
 -->
+# WPF MVVM Behaviors - Create a Custom Attached Behavior
 
-# Product/Platform - Task
+Each Behavior is a [Behavior&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior-1?v=22.1) class descendant. The **T** parameter defines the associated control type.
 
-The description in a free form.
+The [Behavior&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior-1?v=22.1) class contains the [AssociatedObject](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior.AssociatedObject?v=22.1) property. DevExpress MVVM Framework specifies this property when you add a **Behavior** to the [Behaviors](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Interaction.Behaviors?v=22.1) collection. 
 
-Resulting image (if necessary).
+After the AssociatedObject is specified, DevExpress MVVM Framework invokes the virtual **OnAttached** method. You can override this method to subscribe to AssociatedObject's events and initialize its properties. 
 
-Implementation details: steps, code snippets, and other technical information in a free form.
+To unsubscribe from events, you can use the virtual **OnDetaching** method. DevExpress MVVM Framework invokes when the Behavior is destroyed.
 
 <!-- default file list -->
 
+
 ## Files to Look At
 
-- link.cs (VB: link.vb)
-- link.js
-- ...
-
+- [MainWindow.xaml](./CS/winui-mvvm-custom-behavior/winui-mvvm-custom-behavior/MainWindow.xaml)
+- [MainWindow.xaml.cs](./CS/winui-mvvm-custom-behavior/winui-mvvm-custom-behavior/MainWindow.xaml.cs)
+- [MainViewModel.cs](./CS/winui-mvvm-custom-behavior/winui-mvvm-custom-behavior/ViewModel.cs)
+- 
 <!-- default file list end --> 
-
-<!-- 
 
 ## Documentation
 
-- link
-- link
-- ...
+- [WinUI MVVM Framework](https://docs.devexpress.com/WinUI/102569/mvvm-framework?v=22.1)
+- [Behaviors](https://docs.devexpress.com/WinUI/402936/mvvm/behaviors?v=22.1)
 
 ## More Examples
 
-- link
-- link
-- ...
-
--->
+- [WinUI MVVM Service - Create a Custom UI Service](https://github.com/DevExpress-Examples/winui-mvvm-custom-service)
