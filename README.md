@@ -6,7 +6,7 @@
 <!--
 A repository template for creating new examples.
 -->
-# WPF MVVM Behaviors - Create a Custom Attached Behavior
+# WinUI MVVM Behaviors - Create a Custom Attached Behavior
 
 Each Behavior is a [Behavior&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior-1?v=22.1) class descendant. The **T** parameter defines the associated control type.
 
