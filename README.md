@@ -29,7 +29,7 @@ To unsubscribe from events, you can use the virtual **OnDetaching** method. DevE
 ## Documentation
 
 - [WinUI MVVM Framework](https://docs.devexpress.com/WinUI/102569/mvvm-framework?v=22.1)
-- [Behaviors](https://docs.devexpress.com/WinUI/402936/mvvm/behaviors?v=22.1)
+- [WinUI MVVM Behaviors](https://docs.devexpress.com/WinUI/402936/mvvm/behaviors?v=22.1)
 
 ## More Examples
 
